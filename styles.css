@@ -36,8 +36,6 @@ body {
     margin: auto;
     border-radius: 300px 30px 30px 300px;
     
-
- 
 }
 p {
     
@@ -72,7 +70,7 @@ ul {
     padding-top: 25px;
     padding-bottom: 25px;
     padding-left: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
   border-bottom-style: solid;
   border-bottom-color: darkblue;
   border-bottom-width: 2px;
@@ -80,9 +78,9 @@ ul {
 }
 
 .description-in-list {
-    margin-bottom: 50px;
+    padding-bottom: 50px;
     font-size: 1.6em;
-    margin-left: 100px;
+    padding-left: 100px;
 }
 
 .compilations-list {
@@ -101,7 +99,7 @@ ul {
     padding-top: 25px;
     padding-bottom: 25px;
     padding-left: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
     border-bottom: 2px solid darkmagenta; 
     color: darkmagenta;
 }
@@ -119,7 +117,7 @@ a {
 }
 
 .padding-underneath {
-    padding-bottom: 50px;
+    padding-bottom: 100px;
 }
 
 .gigs-list {
@@ -143,7 +141,30 @@ a {
 
 }
 
-#rid-of-margin-bottom {
-    margin-bottom: 10px;
-    
+.gigs-list li {
+ margin-bottom: 50px   
 }
+
+.compilations-list >li{
+
+    border-color: magenta;
+}
+
+.button:link,
+.buttion:visited {
+        display: block;
+        text-decoration: none;
+
+        color: lightgoldenrodyellow;
+        background-color: darkred;
+        font-weight: 400;
+        font: 1em;
+        font-size: initial;
+
+        padding: 10px 20px 10px 20px;
+        text-align: center;
+        border-radius: 5px;
+        width: 200px;
+        
+        margin: 25px auto;
+    }
