@@ -57,10 +57,10 @@ ul {
 }
 
 .compilation-images {
+    display: block;
     width: 500px;
     margin-left: 50px;
     margin-right: 25px;
-    margin-bottom: -3px;
 
 }
 
@@ -89,7 +89,7 @@ ul {
 
 }
 
-.mixes-list {
+.mixes-section {
     background-color: rgb(219, 185, 174);
     
 }
@@ -166,12 +166,12 @@ a {
         
     }
 
-    .button-bio,
-    .button-bio:link {
+.button-bio,
+.button-bio:link {
         margin: 25px auto;
         width: 200px;
     }
-    .cd-button,
+.cd-button,
     .cd-button:link {
         margin: 0px 0px 0px 50px;
         width: 500px;
@@ -180,3 +180,20 @@ a {
     .compilations-list li{
         padding-bottom: 75px;
     }
+
+    .playbutton-pic {
+        margin-left: 100px;
+        margin-right: 100px;
+        width: 50px;
+    }
+.mix-name {
+    font-size: 1em;
+}
+
+.mixes-list li{
+    padding-bottom: 50px;
+}
+
+.mixes-list > li {
+    text-align: center;
+}
