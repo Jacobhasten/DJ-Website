@@ -76,7 +76,9 @@ main{
   }
 
 .travel-blog-pic {
-    margin-left: 50px;
+    margin: 0 auto;
+    padding-left: 40px;
+  
     width: 700px;
 }
 
