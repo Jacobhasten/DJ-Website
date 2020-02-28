@@ -1,253 +1,251 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 @font-face {
-    font-family: 'Amble';
-    src: url('./Fonts/Amble-Bold-webfont.woff') format('woff');
-
+  font-family: "Amble";
+  src: url("./Fonts/Amble-Bold-webfont.woff") format("woff");
 }
 body {
-    
-    background-color: rgb(236, 233, 228);
-    font-size: 12px;
-    font-weight: normal;
-    font-family: 'Poppins', sans-serif;
-    
-
+  background-color: rgb(236, 233, 228);
+  font-size: 12px;
+  font-weight: normal;
+  font-family: "Poppins", sans-serif;
 }
 
 .header-1 {
-
-    color: darkblue;
-    text-align: center;
-    font-size: 2em;
-    font-family: "Amble", sans-serif;
-    
-    }
-
+  color: darkblue;
+  text-align: center;
+  font-size: 2em;
+  font-family: "Amble", sans-serif;
+}
 
 .header-2 {
-    font-family: "Amble", sans-serif;
-    font-weight: bold;
-    font-size: 3em;  
-    padding-top: 50px;
-    padding-left: 50px;
-    margin-bottom: 20px;
-    padding-right: initial;
-    border-bottom: 2px solid darkblue;
-    color: darkblue;
-    
-    
+  font-family: "Amble", sans-serif;
+  font-weight: bold;
+  font-size: 3em;
+  padding-top: 50px;
+  padding-left: 50px;
+  margin-bottom: 20px;
+  padding-right: initial;
+  border-bottom: 2px solid darkblue;
+  color: darkblue;
 }
 
 .djizzy-1 {
-    width: 75%;
-    display: block;
-    margin: auto;
-    border-radius: 300px 30px 30px 300px;
-    
+  width: 75%;
+  display: block;
+  margin: auto;
+  border-radius: 300px 30px 30px 300px;
 }
 p {
-    
-    text-align: left;
-    box-sizing: border-box;
-    padding: 8px;
-    margin-bottom: 0px;
-
+  text-align: left;
+  box-sizing: border-box;
+  padding: 8px;
+  margin-bottom: 0px;
 }
 
 .bio-body {
-    
-    margin: 0 auto;
-    width: 100%;
-
+  margin: 0 auto;
+  width: 100%;
 }
 
 ul {
-    list-style: none;
+  list-style: none;
 }
 
 .compilation-images {
-    display: block;
-    width: 90%;
-    margin: 0 auto;
-    position: relative;
-
+  display: block;
+  width: 90%;
+  margin: 0 auto;
+  position: relative;
 }
 
-
 .description-in-list {
-    /* padding-bottom: 0px; */
-    font-size: 1.6em;
-    margin: 0 auto;
-    text-align: center;
-    /* padding-left: 100px; */
+  /* padding-bottom: 0px; */
+  font-size: 1.6em;
+  margin: 0 auto;
+  text-align: center;
+  /* padding-left: 100px; */
 }
 
 .compilations-list {
-    margin-top: 100px;
-    background-color: lightblue;
-   
-
+  margin-top: 100px;
+  background-color: lightblue;
 }
 
 .mixes-section {
-    background-color: rgb(219, 185, 174);
-    
+  background-color: rgb(219, 185, 174);
 }
 
 a {
-    text-decoration: none;
-    color: darkblue;
-    font-weight: bolder;
+  text-decoration: none;
+  color: darkblue;
+  font-weight: bolder;
 }
 .djizzy-2 {
-    width: 800px;
-    display: block;
-    margin: 0 auto;
-   
-    border-radius: 300px 30px 30px 300px;
+  width: 800px;
+  display: block;
+  margin: 0 auto;
+
+  border-radius: 300px 30px 30px 300px;
 }
 
 .padding-underneath {
-    padding-bottom: 100px;
+  padding-bottom: 100px;
 }
 
 .gigs-list {
-    background-color: rgb(187, 231, 200);
+  background-color: rgb(187, 231, 200);
 }
 
 .title-gigs {
-    font-size: 4em;  
-    padding-top: 25px;
-    padding-bottom: 25px;
-    padding-left: 50px;
-    margin-bottom: 50px;
-    border-bottom: 2px solid darkgreen; 
-    color: darkgreen;
+  font-size: 4em;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 50px;
+  margin-bottom: 50px;
+  border-bottom: 2px solid darkgreen;
+  color: darkgreen;
 }
 
 .sacred-earth-pic {
-    width: 400px;
-    display: block;
-    margin-left: 100px;
-
+  width: 400px;
+  display: block;
+  margin-left: 100px;
 }
 
 .gigs-list li {
- margin-bottom: 50px   
+  margin-bottom: 50px;
 }
 
 .button,
-.button:link
-    {
-        display: block;
-        text-decoration: none;
+.button:link {
+  display: block;
+  text-decoration: none;
 
-        color: lightgoldenrodyellow;
-        background-color: rgb(221, 80, 80);
+  color: lightgoldenrodyellow;
+  background-color: rgb(221, 80, 80);
 
-        padding: 10px 20px 10px 20px;
-        text-align: center;
-        border-radius: 5px;
-        border: 2px solid rgb(170, 14, 14);
-       
-        
-        
-    }
+  padding: 10px 20px 10px 20px;
+  text-align: center;
+  border-radius: 5px;
+  border: 2px solid rgb(170, 14, 14);
+}
 
 .button-bio,
 .button-bio:link {
-        margin: 0 auto;
-        width: 40%;
-    }
+  margin: 0 auto;
+  width: 40%;
+}
 .cd-button,
 .cd-button:link {
-        margin: 0 auto;
-        width: 90%;
-    }
+  margin: 0 auto;
+  width: 90%;
+}
+/* .cd-button is inheriting border radius: 5px; from .button. Stylistically, I think
+    it may look better to remove that radius from the two top corners so the button and the
+    image look like one box. Does that make sesne? You could just do border-radius: 5px 5px 0px 0px; */
 
-    .compilations-list li{
-        padding-bottom: 20px;
-    }
+.compilations-list li {
+  padding-bottom: 20px;
+}
 
-    .playbutton-pic {
-        /* margin-left: 100px;
+.playbutton-pic {
+  /* margin-left: 100px;
         margin-right: 100px; */
-        width: 40px;
-        padding: 5px;
-    }
+  width: 40px;
+  padding: 5px;
+}
 .mix-name {
-    
-    width: 100%;
+  width: 100%;
 }
 
 .playlist-card {
-    display: flex;
-    width: 300px;
-    justify-content: space-between;
-    align-items: center;
-    /* border: 2px solid black; */
-    margin-bottom: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
-    background-color: rgb(212, 146, 124);
-    /* padding: 5px; */
-    border-radius: 10px;
+  display: flex;
+  width: 300px;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 2px solid black; */
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: rgb(212, 146, 124);
+  /* padding: 5px; */
+  border-radius: 10px;
 }
 
 .play-button-and-name {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
 }
 
 .mix-genre {
-    /* display: flex; */
-    font-size: .6rem;
-    color: rgb(59, 59, 59);
-    width: 60%;
-
+  /* display: flex; */
+  font-size: 0.6rem;
+  color: rgb(59, 59, 59);
+  width: 60%;
 }
 
 .mixes-list {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 @media (min-width: 401px) {
-    .compilation-flex {
-        display: flex;
-        justify-content: space-around;
-        
-    }
+  .compilation-flex {
+    display: flex;
+    justify-content: space-around;
+  }
 
-    .compilation-images {
-        min-width: 180px;
-        min-height: 180px;
-        max-width: 300px;
-        max-height: 300px;
-        object-fit: contain;
-        position: relative;
-    }
+  .compilation-images {
+    min-width: 180px;
+    min-height: 180px;
+    max-width: 300px;
+    max-height: 300px;
+    object-fit: contain;
+    position: relative;
+  }
 
-    .cd-button,
-.cd-button:link {
-        min-width: 180px;
-        
-    }
+  .cd-button,
+  .cd-button:link {
+    min-width: 180px;
+  }
 
-    .bio-body {
-    
-        margin: 0 auto;
-        max-width: 400px;
-    
-    }
+  .bio-body {
+    margin: 0 auto;
+    max-width: 400px;
+  }
+}
+
+/* I think I would add one more break to your responsive design so that the page does not
+   keep stretching past 1000px */
+/* @media (min-width: 1000px) {
+  body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  section {
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  h1 {
+    width: 1000px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: left;
+  } */
 }
