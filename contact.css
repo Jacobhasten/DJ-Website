@@ -1,0 +1,226 @@
+/* Base CSS */
+/* ==========================================================================
+   #FONT
+   ========================================================================== */
+
+   body {
+    font-family: "Poppins", "Arial", "Helvetica Neue", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: rgb(235, 230, 230);
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+  }
+  
+  h1 {
+    font-size: 36px;
+  }
+  
+  h2 {
+    font-size: 30px;
+  }
+  
+  h3 {
+    font-size: 24px;
+  }
+  
+  h4 {
+    font-size: 18px;
+  }
+  
+  h5 {
+    font-size: 15px;
+  }
+  
+  h6 {
+    font-size: 13px;
+  }
+  
+  
+  /* ==========================================================================
+     #BOX-SIZING
+     ========================================================================== */
+  /**
+   * More sensible default box-sizing:
+   * css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice
+   */
+  html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  * {
+    padding: 0;
+    margin: 0;
+  }
+  
+  *, *:before, *:after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+  }
+  
+  /* ==========================================================================
+     #RESET
+     ========================================================================== */
+  /**
+   * A very simple reset that sits on top of Normalize.css.
+   */
+  body,
+  h1, h2, h3, h4, h5, h6,
+  blockquote, p, pre,
+  dl, dd, ol, ul,
+  figure,
+  hr,
+  fieldset, legend {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /**
+   * Remove trailing margins from nested lists.
+   */
+  li > ol,
+  li > ul {
+    margin-bottom: 0;
+  }
+  
+  /**
+   * Remove default table spacing.
+   */
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+  
+  /**
+   * 1. Reset Chrome and Firefox behaviour which sets a `min-width: min-content;`
+   *    on fieldsets.
+   */
+  fieldset {
+    min-width: 0;
+    /* [1] */
+    border: 0;
+  }
+  
+  button {
+    outline: none;
+    background: none;
+    border: none;
+  }
+
+  input {
+    outline: none;
+    margin: 0;
+    border: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+  }
+
+  select {
+      outline: none;
+  margin: 0;
+  border: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  }
+
+  /* Izzy's Styling */
+
+  .background {
+    background: -webkit-gradient(linear, left bottom, left top, from(#fbc2eb), to(#a18cd1));
+    background: -webkit-linear-gradient(bottom, #971a20 0%, #197f86 100%);
+    background: -moz-linear-gradient(bottom, #971a20 0%, #197f86 100%);
+    background: -o-linear-gradient(bottom,bottom, #971a20 0%, #197f86 100%);
+    background: linear-gradient(to top, bottom, #971a20 0%, #197f86 100%);
+  }
+
+  main {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+  width: 100%;
+  max-width: 400px;
+  padding-top: 15px;
+  background-color: black;
+  border-radius: 10px;
+}
+
+.card__heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 1.5rem;
+}
+
+.card__form {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  padding-left: 1rem;
+  font-size: .8rem;
+}
+
+.field-wrapper {
+  padding-bottom: 1rem;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+} 
+
+.field-label {
+  margin-bottom: .25rem;
+}
+
+.field-input {
+  max-width: 50%;
+  min-width: 8rem;
+  border-radius: .25rem;
+  height: 1rem;
+  padding: .7rem;
+}
+
+.field-input-text-area {
+  max-width: 65%;
+  border-radius: .25rem;
+}
+
+.checkbox-wrapper {
+  margin-bottom: .5rem;
+}
+
+.submit-form {
+  display: flex;
+  align-self: center;
+}
+
+.submit-button {
+    text-align: center;
+    cursor: default;
+    color: black;
+    padding: .5rem;
+    margin-bottom: 1rem;
+    border-radius: 20px;
+    width: 8rem;
+    background-color: white;
+    font-weight: 700;
+    font-size: .8rem;
+}
+
+.submit-button:hover {
+  background-color: teal;
+}
+
+.submit-button:active {
+border: .1rem solid #971a20;
+}
